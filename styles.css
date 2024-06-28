@@ -1,0 +1,265 @@
+
+:root{
+
+--card-border-radius: 2rem;
+--card-padding: 1.9rem;
+--box-shadow: 0 2rem 3rem #ccc;
+--box-shadow2: 0 1rem 1rem #ccc;
+
+}
+
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     border: 0;
+     list-style: none;
+     appearance: none;
+
+}
+
+body{
+     font-family: "poppins" , sans-serif;
+     width: 100vw;
+     height: 100vh;
+     font-size: 0.88rem;
+     user-select: none;
+     overflow-x: hidden;
+     background-color: #cccccc48;
+}
+
+.container{
+     display: grid;
+     width: 96%;
+     gap: 1.8rem;
+     grid-template-columns: 14rem auto 14rem;
+     margin: 0 auto;
+     
+}
+
+
+a{
+     color: black;
+}
+
+h1{
+     font-weight: 800;
+     font-size: 1.8rem;
+     color: #000;
+
+}
+
+p{
+     background-color: #000;
+     height: 80px;
+     width: 1250px;
+    
+     
+}
+
+div h1:first-child{
+     font-weight: 800;
+     font-size: 1.8rem;
+     color: #ffffff;
+     margin: -40px 10px ;
+}
+h2{
+     font-size: 1.4rem;
+
+}
+
+ h3{
+     color: black;
+     font-size: 1rem;
+
+ }
+
+ h4{
+     font-size: 0.8;
+ }
+
+ h5{
+     font-size: 0.90rem;
+     margin: 10px 30px ;
+ }
+
+ small{
+     font-size: 0.75rem;
+
+ }
+
+
+ .text-muted{
+     color: black;
+ }
+
+
+ primary{
+     color:darkcyan
+ }
+
+
+ .danger{
+     color:rgb(0, 0, 0);
+ }
+
+
+
+
+aside .top{
+     background-color: white;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 1.4rem;
+}
+
+
+aside .top div.close{
+     display: none;
+
+}
+
+aside.sidebar{
+     background-color: white;
+     display: flex;
+     flex-direction: calumn;
+     height: 85vh;
+     position: relative;
+     top: 1rem;
+
+}
+
+aside .h3{
+     font-weight: 500;
+}
+
+aside .sidebar a{
+     display: flex;
+     color: gray;
+     margin-left: 2rem;
+     gap: 1rem;
+     align-items: center;
+     height: 3.2rem;
+     transition: all .1 ease-in;
+     
+}
+
+
+aside .sidebar a:last-child{
+     position: absolute;
+     bottom: 1rem;
+     width: 100%;
+
+}
+
+
+main{
+     width:1100px;
+
+
+}
+
+
+main .l{
+     display: flex;
+     margin-top: 2.5rem;
+     padding: 0.5rem;
+
+}
+
+main .insights{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     gap: 1.6
+}
+
+
+
+
+main .insights>div{
+     background-color: #ffffff;
+     padding: var(--card-padding);
+     border-radius: var(--card-border-radius);
+     margin-top:1rem;
+     margin-left: 1rem;
+     transition: all .3s ease;
+     box-shadow: var(--box-shadow2);
+}
+
+
+
+main .insights > div .middle h1{
+     font-size: 1.6rem ;
+
+}
+
+main h1{
+     color: rgb(0, 0, 0);
+
+}
+
+
+main .insights .progress{
+     height: 68px;
+     width: 68%;
+     border-radius: 50px;
+
+}
+
+
+main .recent_order{
+     margin-top: 2rem;
+     
+}
+
+main .recent_order h2{
+     color:grey;
+}
+
+main .atividades table{
+     background-color: white;
+     width: 100%;
+     padding: var(--card-padding);
+     text-align: center;
+     box-shadow: var(--box-shadow2);
+     transition: all .3s ease;
+     color: #a9a9a9;
+     border-radius: 20px;
+     margin: 15px;
+
+}
+
+main.atividades table:hover{
+     box-shadow: none;
+}
+
+main table tbody tr{
+     height: 3.8rem;
+     border-bottom: 1px solid #a9a9a9;
+}
+
+main table tbody td{
+     height: 3.8rem;
+     border-bottom: 1px solid white;
+
+}
+
+main table tbody tr:last-child{
+     border:none
+}
+
+main.atividades a{
+     text-align: center;
+     display: block;
+     margin: 1rem;
+}
+
+td{
+     color: #000;
+}
+tr{
+color: black;
+font-size: 15px;
+}
